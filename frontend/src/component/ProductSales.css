@@ -1,0 +1,97 @@
+.header{
+    margin-bottom:3rem;
+    text-align: center;
+    background-color: aqua;
+}
+
+.header h1{
+    padding: 1rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: max-content; */
+   padding: 1rem;
+   /* width: 97%; */
+    gap: 15px;
+    background-color: rgb(149, 176, 199);
+   
+}
+
+form{
+    background-color: aquamarine;
+    width: 24rem;
+    height: 22rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+}
+input{
+    outline: 1px solid rgb(223, 201, 205);
+    margin: 20px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: .7rem;
+    border: none;
+    
+}
+#add{
+    border-radius: 1rem;
+    width: 30%;
+}
+
+.data{
+    /* text-align: center; */
+    background-color: aqua;
+    height: 24rem;
+    height: max-content;
+   text-align: center;
+   padding: 2rem 0 2rem 0;
+   border-radius: 2rem;
+}
+
+.show-data{
+    /* background-color: rgb(19, 17, 17); */
+    height: max-content;
+    margin: 6px;
+    width: 21.5rem;
+    justify-content: center;
+    
+}
+.show-data ul{
+    list-style: none;
+    color: black;
+}
+.show-data ul li{
+    border: 1px solid blue;
+    display: inline-block;
+    width: 4.6rem;
+    padding: 5px;
+}
+
+.fieldName li{
+  background-color: rgb(85, 85, 85);
+  color: aliceblue;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+
+div .revenu{
+    background-color: aliceblue;
+    padding: 5px;
+    width: 80px;
+    font-size: 18px;
+    border: 1px solid black;
+    margin-left: 8.4rem;
+}
