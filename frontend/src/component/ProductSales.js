@@ -121,7 +121,7 @@ export default function ProductSales() {
             Add details
           </button>
         </form>
-          {/* <div className="data">
+          <div className="data">
               <button onClick={getProducts}>Refresh Top Sales</button>
               <div className="show-data">
                 <br />
@@ -147,7 +147,7 @@ export default function ProductSales() {
                  <div className='revenu'>
                  {sales.data}
                  </div>
-            </div> */}
+            </div> 
       </div>
     </div>
   );
